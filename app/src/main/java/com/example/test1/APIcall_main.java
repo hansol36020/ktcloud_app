@@ -324,11 +324,12 @@ public class APIcall_main extends Application {
                 break;
 
             case 20: // DB 조회
-                if(zone.equals("Seoul-M2")) this.baseurl = "https://api.ucloudbiz.olleh.com/db/v2/client/api?";
-                else this.baseurl = "https://api.ucloudbiz.olleh.com/db/v1/client/api?";
+                if(zone.equals("Seoul-M2")) baseurl = "https://api.ucloudbiz.olleh.com/db/v2/client/api?";
+                else baseurl = "https://api.ucloudbiz.olleh.com/db/v1/client/api?";
 
                 request.put("command", "listInstances" );
                 break;
+
 
             case 21: // DB HA그룹 조회
                 if(zone.equals("Seoul-M2")) baseurl = "https://api.ucloudbiz.olleh.com/db/v2/client/api?";

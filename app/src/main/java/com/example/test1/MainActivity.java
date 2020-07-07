@@ -14,8 +14,8 @@ import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
-    private String apikey = "JOS9hA86nxPWylAp9_4ocn22_jMGE2KvvNCbAsaItdxr0c2BgZUnMXDm258b5LB1hAtwGxr8VC7mCd3rKHV-RQ";
-    private String secretKey = "LAoepJDlYXyVUvq9EqXnh2gZjoJcqhq8UQCZA7Pa-sKIrowywzKaygPH_3F0kK0pWGVw_2OrcA7X5yrFapUZQg";
+    private String apikey = "arzhGT3dZvMRrjDU0AS8N6-4flyotixlxSVLeF0w3V8oPJknhrxoCV8aLnry-yBnxe2DqOW7Hp-eQl-GHCyoqA";
+    private String secretKey = "9W4Kjkh-k9_59vjsYAyz9K_t44NB6D2rcFUeNp6PThq2364ijxi-0mNXSVbnhRJ4cOXQhQyNmOO8EZJ5ns9YLw";
 
     TextView apikeyText, secretkeyText;//사용자가 입력한 값 받아오기위한 변수
     CheckBox checkbox;
