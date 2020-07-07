@@ -20,7 +20,6 @@ public class APIcall_DB extends APIcall_main {
     public APIcall_DB(){
         this.baseurl = "https://api.ucloudbiz.olleh.com/db/v1/client/api?";
     }
-
     /**
      * @brief DB 인스턴스의 zone과 인스턴스 id로 Displayname을 받아오는 함수
      * @param zonename displayname을 알기를 원하는 DB 인스턴스의 zone 이름
